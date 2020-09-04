@@ -1,0 +1,90 @@
+.container{
+    font-family: 'Gochi Hand', cursive;
+
+}
+
+.sec-flex{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.sec-flex p{
+    margin-left: 25%;
+}
+
+.mi-img img{
+    border-radius: 60%;
+    margin-left: 80%;
+}
+
+.conocimientos{
+    flex-wrap: wrap;
+}
+
+.img-language{
+    width: 20%;
+    text-align: center;
+    margin-bottom: 2%;
+    margin-right: 3%;
+}
+ 
+.img-language img{
+    width: 80%;
+    height: 240px;
+}
+
+.img-language img:hover{
+    border:5px pink solid;
+    border-radius: 30px;
+    box-shadow:3px 5px 5px #D8D8D8;
+    padding:10%;
+}
+
+
+
+h2{
+    margin-bottom: 4%;
+}
+
+h1{
+    margin-bottom: 1% !important;
+}
+
+
+
+
+
+
+
+/*
+.mi-img p{
+    margin-left:10%;
+}
+
+.sec-flex img{
+    border: 1px white solid;
+}
+
+.mi-img img{
+    border-radius: 50%;
+    margin-left: 10%;
+}
+.flex-child{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 15%;
+    width: 40%;
+    border:2px pink solid;
+    margin-left: 5%;
+}
+
+.flex-child img{
+    width: 30%;
+}
+.flex-child p{
+    width: 60%;
+}
+*/
+
+

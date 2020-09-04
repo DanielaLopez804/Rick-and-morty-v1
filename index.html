@@ -1,0 +1,173 @@
+<!DOCTYPE html> <!--Especifica la version de HTML que vamos a utilizar -->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty</title>
+    <link rel="icon" type="image/png" href="./imagenes/aceptar.PNG" >
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+   <nav class="main-menu">
+       <!--etiqueta UL -> nos permite crear listas no ordenadas -->
+            <img src="imagenes/rick.PNG" width="300" height="100" >
+       
+       <ul class="main-menu opt-menu">
+           <!--li ==> elementos de la lista-->
+           <li><a href="index.html">Inicio</a></li>
+           <li><a href="sobremi.html">sobre mi</a></li>
+           <li><a href="contact.html" >Registrate</a></li>
+       </ul>
+        <!--etiqueta OL  listas ordenadas-->
+        <!--<ol>
+            li ==> elementos de la lista
+            <li>Inicio</li>
+            <li>Sobre mi</li>
+            <li>Contactenos</li>
+        </ol>-->
+    
+   </nav>
+   
+   <!--
+   <div class="div-flex">
+       <div class="div-flex img"><img src="imagenes/Arthricia.jpeg" width="300" height="300" ></div>
+       <div class="div-flex img"><img src="imagenes/Beth.jpeg" width="300" height="300" ></div>
+       <div class="div-flex img"><img src="imagenes/Davin.jpeg" width="300" height="300"></div>
+       <div class="div-flex img"><img src="imagenes/Jerry.jpeg" width="300" height="300"></div>
+       <div class="div-flex img"><img src="imagenes/DianeSanchez.jpeg"width="300" height="300"></div>
+   </div>-->
+   
+
+   <!--El DIV es el padre
+   <div class="flex-content">
+     Las imagenes son los hijos
+     <img style="flex-grow: 2; align-self: stretch;"src="https://picsum.photos/id/1025/200/200" alt="">
+     <img src="https://picsum.photos/id/237/200/200" alt="">
+     <img src="https://picsum.photos/id/1020/400/300" alt="">
+   </div>-->
+  
+   <div class="container">
+       <h1>Personajes de la serie</h1>
+   <section class="main-charecters">
+    <article class="charecter">
+        <header>
+            <h2>Rick Sanchez</h2>
+         </header>
+         <img src="imagenes/ricksanchez.jpg" alt="RickSanchez" >
+         <div>
+             <p><b>Genero:</b>Másculino</p>
+             <p><b>Especie:</b>Humano</p>
+         </div>
+     </article>
+     <article class="charecter">
+        <header>
+            <h2>Morty Smith</h2>
+         </header>
+         <img src="imagenes/Morty.jpg" alt="MortySmith" >
+         <div>
+             <p><b>Genero:</b>Másculino</p>
+             <p><b>Especie:</b>Humano</p>
+         </div>
+     </article>
+       <article class="charecter">
+           <header>
+               <h2>Arthricia</h2>
+            </header>
+            <img src="imagenes/Arthricia.jpeg" alt="Arthricia" >
+            <div>
+                <p><b>Genero:</b>Femenino</p>
+                <p><b>Especie:</b>Gata</p>
+            </div>
+        </article>
+        <article class="charecter">
+            <header>
+                <h2>Beth Smith</h2>
+            </header>
+            <img src="imagenes/Beth.jpeg" alt="Beth">
+            <div>
+                <p><b>Genero:</b>Femenino</p>
+                <p><b>Especie:</b>Humano</p>
+            </div>
+        </article>
+    <article class="charecter">
+        <header>
+            <h2>Davin</h2>
+        </header>
+        <img src="imagenes/Davin.jpeg" alt="Beth">
+        <div>
+            <p><b>Genero:</b>Másculino</p>
+            <p><b>Especie:</b>Humano</p>
+        </div>
+    </article>
+    <article class="charecter">
+        <header>
+            <h2>Diane Smith</h2>
+        </header>
+        <img src="imagenes/DianeSanchez.jpeg" alt="Beth">
+        <div>
+            <p><b>Genero:</b>Femenino</p>
+            <p><b>Especie:</b>Humano</p>
+        </div>
+    </article>
+    <article class="charecter">
+        <header>
+            <h2>Jerry Smith</h2>
+        </header>
+        <img src="imagenes/Jerry.jpeg" alt="Beth">
+        <div>
+            <p><b>Genero:</b>Másculino</p>
+            <p><b>Especie:</b>Humano</p>
+        </div>
+    </article>
+    <article class="charecter">
+        <header>
+            <h2>Jessica</h2>
+        </header>
+        <img src="imagenes/Jessica.png" alt="Jessica">
+        <div>
+            <p><b>Genero:</b>Femenino</p>
+            <p><b>Especie:</b>Humano</p>
+        </div>
+    </article>
+    <article class="charecter">
+        <header>
+            <h2>Squanchy</h2>
+        </header>
+        <img src="imagenes/squanchy.jpg" alt="Squanchy">
+        <div>
+            <p><b>sexo:</b>Mácho</p>
+            <p><b>Especie:</b>Canino</p>
+        </div>
+    </article>
+    <article class="charecter">
+        <header>
+            <h2>Donna Guterman</h2>
+        </header>
+        <img src="imagenes/Donna.png" alt="Donna">
+        <div>
+            <p><b>Genero:</b>Femenino</p>
+            <p><b>Especie:</b>Humano</p>
+        </div>
+    </article>
+    <article class="charecter">
+        <header>
+            <h2>Tammy Guterman</h2>
+        </header>
+        <img src="imagenes/tammy.jpg" alt="Tammy">
+        <div>
+            <p><b>Genero:</b>Femenino</p>
+            <p><b>Especie:</b>Humano</p>
+        </div>
+    </article>
+   </section>
+   </div>
+
+   <footer>
+       <p>Hecho con <i class="fas fa-heart"></i> por Daniela Lopez</p>
+   </footer>
+  
+</body>
+</html>
