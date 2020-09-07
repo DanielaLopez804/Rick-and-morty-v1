@@ -1,8 +1,10 @@
 .container{
     font-family: 'Gochi Hand', cursive;
+}
+.fondo1{
+    background-image: url(../imagenes/fondosobre.jpg);
 
 }
-
 .sec-flex{
     display: flex;
     align-items:center;
@@ -15,7 +17,7 @@
 
 .mi-img img{
     border-radius: 60%;
-    margin-left: 80%;
+    margin-left: 47%;
 }
 
 .conocimientos{
