@@ -3,7 +3,8 @@
 }
 .fondo1{
     background-image: url(../imagenes/fondosobre.jpg);
-
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .sec-flex{
     display: flex;

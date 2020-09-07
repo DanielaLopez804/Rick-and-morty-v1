@@ -184,17 +184,10 @@ footer{
     width: 45%;
 
 }
-.options input{
-    width: 20px !important;
-    border: 2px rgb(61, 204, 240) solid !important;
-    border-radius: 10px;
-    flex-direction: column;
-    margin-right: 6%;
-    text-align: center;
-}
+
 .options h4{
     margin-bottom: 2%;
-    text-align: center;
+  
 }
 .form-flex input{
     height: 30px;
@@ -224,3 +217,11 @@ li{
     list-style: none;
 }
 
+.options input{
+    width: 20px !important;
+    height: 15px;
+    border: 2px rgb(61, 204, 240) solid !important;
+    flex-direction: column;
+    margin-right: 3%;
+    text-align: center;
+}
