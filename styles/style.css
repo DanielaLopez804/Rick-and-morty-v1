@@ -225,3 +225,20 @@ li{
     margin-right: 3%;
     text-align: center;
 }
+
+.cambiarnombre{
+    border-radius: 30%;
+    height: 9%;
+    border-color:rgba(38, 218, 218, 0.938);
+    font-family: 'Gochi Hand', cursive;
+    text-align: center;
+}
+
+.cambiarnombre2{
+    border-radius: 30%;
+    height: 9%;
+    border-color:rgba(38, 218, 218, 0.938);
+    font-family: 'Gochi Hand', cursive;
+    text-align: center;
+    margin-top: 2%;
+}
